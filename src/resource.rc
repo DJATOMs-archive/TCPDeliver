@@ -1,0 +1,39 @@
+#include <windows.h>
+
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,0,0
+ PRODUCTVERSION 0,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "Comments", "Homepage: https://github.com/DJATOM/TCPDeliver"
+            VALUE "CompanyName", "Avisynth+"
+            VALUE "FileDescription", "TCPDeliver plugin for Avisynth+."
+            VALUE "FileVersion", "0.2.0.0"
+            VALUE "InternalName", "TCPDeliver"
+            VALUE "LegalCopyright", "© 2004-2015 - Klaus Post, © 2017 - DJATOM."
+            VALUE "LegalTrademarks", "Released under GPL."
+            VALUE "OriginalFilename", "TCPDeliver.dll"
+            VALUE "ProductName", "TCPDeliver"
+            VALUE "ProductVersion", "0.2.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
